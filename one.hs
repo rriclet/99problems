@@ -4,5 +4,5 @@ main = do
 
 myLast :: [a] -> a
 myLast [] = error "No last element"
-myLast list = last list
--- myLast (_:xs) = last xs
+myLast [x] = x
+myLast (_:xs) = myLast xs
