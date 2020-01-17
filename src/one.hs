@@ -1,4 +1,4 @@
-main = do 
+One = do 
     print $ myLast [1,2,3,4]
     print $ myLast ['a','b','r','y']
 
